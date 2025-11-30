@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.progress-bar {
+  transition: width 0.1s ease;
+}
+
+.progress-bar:hover .progress-slider {
+  opacity: 1;
+}

@@ -1,0 +1,1 @@
+export {Artist, Cover, CurrentDuration, Duration, Title} from "./ui"
